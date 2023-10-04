@@ -1,0 +1,14 @@
+{
+  "name": "curso-nodejs-midudev",
+  "version": "1.0.0",
+  "description": "Curso de nodejs de midudev",
+  "main": "1.http.js",
+  "scripts": {
+    "dev": "nodemon 1.http.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

@@ -4,11 +4,14 @@
   "description": "Curso de nodejs de midudev",
   "main": "1.http.js",
   "scripts": {
-    "dev": "nodemon 1.http.js"
+    "dev": "nodemon 1.http.js",
+    "dev:2": "nodemon 2.routing.js",
+    "dev:3": "node --watch 3.express.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "4.18.2",
     "nodemon": "^3.0.1"
   }
 }
